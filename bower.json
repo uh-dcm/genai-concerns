@@ -1,0 +1,7 @@
+{
+  "name": "my-project",
+  [...]
+  "devDependencies": {
+    "Styleguide": "https://github.com/UH-StudentServices/Styleguide.git#release-1.17.0"
+  }
+}
