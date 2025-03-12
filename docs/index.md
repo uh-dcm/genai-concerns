@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Concerns on the use of generative AI in research
 ## Background
 Overall, there has been quite a bit of interest on the use of generative AI (genAI) in social science for data generation and analysis. For example, to summarise this discussion and highlight ongoing work, Chris Bail published an article [‘Can Generative AI improve social science?’](https://www.pnas.org/doi/full/10.1073/pnas.2314021121) in May 2024, summarising current debate on both the benefits and concerns related to using generative AI for social science research and arguing that genAI has great potential in these fields. At the same time, some social scientists have felt less optimistic about these opportunities.
