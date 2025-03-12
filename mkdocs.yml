@@ -6,13 +6,10 @@ theme:
     primary: teal
   font:
     text: Montserrat
+  custom_dir: overrides
 
 extra_css:
   - stylesheets/extra.css
 
 plugins: []
 
-extra:
-  social:
-    - icon: fontawesome/brands/github 
-      link: https://github.com/uh-soco
