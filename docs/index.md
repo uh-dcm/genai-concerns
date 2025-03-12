@@ -14,7 +14,7 @@ We assume our readers are familiar with terms like ‘generative AI’, ‘large
 ### How to contribute!
 We would welcome any suggestions for additions to this list!
 
-1. (Our preference!) Make a pull request for this repository!
+1. (Our preference!) Make a pull request for this [repository](https://github.com/uh-soco/genAI-concerns)!
 2. Contact us via email: <matti.nelimarkka@helsinki.fi> or <adeline.clarke@helsinki.fi> 
 
 ## General limitations
