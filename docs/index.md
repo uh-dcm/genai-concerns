@@ -66,7 +66,7 @@ Overall, there are general concerns related to the application of large language
 - **Claim:** generative AI can be used to simulate populations which could lead to better, richer, ABMs thus enabling deeper research.  
 - Currently no counter claims!
 
-### Blending Simulation and Human Experiment:
+### Blending Simulation and Human Experiment
 
 - **Claim:** There are a number of articles which demonstrate that LLMs are capable of convincingly impersonating humans. Bail highlights this as an opportunity for content creation (eg. production of text designed to elicit a specific response in human subjects or creation of two similar images depicting different races). Bail also believes generative AI provides an opportunity to create chatbots that are convincingly human, to include AI participants with particular traits within research on groups and influence. 
 - Currently no counter claims!
