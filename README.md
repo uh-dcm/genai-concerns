@@ -1,6 +1,3 @@
-# genAI-concerns
-A repository which outlines concerns and issues to address and engages them with more critical research. 
-
 # Concerns on the use of generative AI in research
 ## Background
 Overall, there has been quite a bit of interest on the use of generative AI (genAI) in social science for data generation and analysis. For example, to summarise this discussion and highlight ongoing work, Chris Bail published an article [‘Can Generative AI improve social science?’](https://www.pnas.org/doi/full/10.1073/pnas.2314021121) in May 2024, summarising current debate on both the benefits and concerns related to using generative AI for social science research and arguing that genAI has great potential in these fields. At the same time, some social scientists have felt less optimistic about these opportunities.
@@ -8,6 +5,12 @@ Overall, there has been quite a bit of interest on the use of generative AI (gen
 In hopes to develop practices in social sciences, this document is intended to become a repository which outlines concerns and issues to address and engages them with more critical research. 
 
 We assume our readers are familiar with terms like ‘generative AI’, ‘large language models’, ‘Foundation Models’. If not, Bail’s article provides a useful summary of these. 
+
+### How to contribute!
+We would welcome any suggestions for additions to this list!
+
+1. (Our preference!) Make a pull request for this repository!
+2. Contact us via email: <matti.nelimarkka@helsinki.fi> or <adeline.clarke@helsinki.fi> 
 
 ## General limitations
 Overall, there are general concerns related to the application of large language models across all application areas. These are highlighted e.g. in Bail’s article as concerns, but even while these are acknowledged as issues, there is much less know-how on how to correctly address these issues.
