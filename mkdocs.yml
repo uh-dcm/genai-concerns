@@ -12,3 +12,8 @@ extra_css:
   - stylesheets/extra.css
 
 plugins: []
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/uh-soco
