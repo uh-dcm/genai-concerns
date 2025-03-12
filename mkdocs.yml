@@ -7,6 +7,7 @@ theme:
   font:
     text: Montserrat
   custom_dir: overrides
+  logo: assets/flame.png
 
 extra_css:
   - stylesheets/extra.css
