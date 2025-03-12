@@ -5,7 +5,7 @@ theme:
   custom_dir: overrides
   logo: assets/logo.png
   palette:
-    primary: indigo
+    primary: red
 
 extra_css:
   - stylesheets/extra.css
