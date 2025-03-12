@@ -1,0 +1,16 @@
+:root {
+  --md-primary-fg-color:        #E5053A;
+  --md-primary-fg-color--light: #E5053A;
+  --md-primary-fg-color--dark:  #E5053A;
+  --md-footer-bg-color:  #323232;
+  --md-typeset-a-color: blue;
+}
+
+.md-footer-copyright {
+  color: white;
+}
+
+.md-typeset a {
+  color: blue;
+  text-decoration: underline;
+}
