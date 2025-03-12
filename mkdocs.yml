@@ -2,7 +2,6 @@ site_name: Concerns on the use of generative AI in research
 
 theme:
   name: material
-  custom_dir: overrides
   palette:
     primary: teal
   font:
