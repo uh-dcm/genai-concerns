@@ -3,7 +3,6 @@ site_name: Concerns on the use of generative AI in research
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/logo.png
   palette:
     primary: red
 
