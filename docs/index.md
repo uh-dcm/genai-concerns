@@ -19,25 +19,35 @@ We would welcome any suggestions for additions to this list!
 2. Contact us via email: <matti.nelimarkka@helsinki.fi> and <adeline.clarke@helsinki.fi> 
 
 ## General limitations
-Overall, there are general concerns related to the application of large language models across all application areas. These are highlighted e.g. in Bail’s article as concerns, but even while these are acknowledged as issues, there is much less know-how on how to correctly address these issues.
+Overall, there are general concerns related to the application of large language models across all application areas.
+These are highlighted e.g. in Bail’s article as concerns, but even while these are acknowledged as issues, there is much less know-how on how to correctly address these issues.
 
 ###  Reproducibility
 
-Replicability of research using generative AI is of concern due to the probabilistic nature of the models. ‘Temperature’ parameters can be used to combat this but there isn’t consensus on what these should be set to and they come with drawbacks of repetition that may be problematic in some research settings. Another issue is that as the models change and develop, their outputs will as well, making it difficult to reproduce results at a later date. Finally, results may be dependent on which generative AI was used within the research. 
+Replicability of research using generative AI is of concern due to the probabilistic nature of the models.
+‘Temperature’ parameters can be used to combat this but there isn’t consensus on what these should be set to and they come with drawbacks of repetition that may be problematic in some research settings.
+Another issue is that as the models change and develop, their outputs will as well, making it difficult to reproduce results at a later date.
+Finally, results may be dependent on which generative AI was used within the research. 
 
 * [Bisbee et al.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B92267DC26195C7F36E63EA04A47D2FE/S1047198724000056a.pdf/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models.pdf) found that between April and July 2023, changes in the algorithm in ChatGPT 3.5 Turbo would have significantly changed their results. 
 
 ### Bias
 
-Generative AI tools exhibit the human biases found in their training materials. Bail argues prompt engineering shows some promise in addressing this and these biases may be easier to remove from generative AI than human populations, but this requires researchers being able to identify the bias and is hindered by researchers having little access to material used to train the model. This bias can be seen as a ‘bug’ or a ‘feature’ and may be useful in some research applications. We also don’t know what the developers have done to limit or prevent certain biases (such as racism) through fine-tuning to safeguard against their generative AI producing unappealing or toxic content. 
+Generative AI tools exhibit the human biases found in their training materials.
+Bail argues prompt engineering shows some promise in addressing this and these biases may be easier to remove from generative AI than human populations, but this requires researchers being able to identify the bias and is hindered by researchers having little access to material used to train the model.
+This bias can be seen as a ‘bug’ or a ‘feature’ and may be useful in some research applications.
+We also don’t know what the developers have done to limit or prevent certain biases (such as racism) through fine-tuning to safeguard against their generative AI producing unappealing or toxic content. 
 
 * See Boelaert et al. “Machine Bias”, discussed [below](https://osf.io/preprints/socarxiv/r2pnb).
-* Santurkar et al. ask [‘Whose Opinions Do Language Models Reflect?’](https://arxiv.org/abs/2303.17548), quantifying results gained from using LLMs in comparison to opinion polls. Even when prompted to represent a certain US demographic group, the overall results tend to reflect more liberal, younger and educated respondents rather than the general population.
+* Santurkar et al. ask [‘Whose Opinions Do Language Models Reflect?’](https://arxiv.org/abs/2303.17548), quantifying results gained from using LLMs in comparison to opinion polls.
+* Even when prompted to represent a certain US demographic group, the overall results tend to reflect more liberal, younger and educated respondents rather than the general population.
 * Similarly, [Atari et al.](https://osf.io/preprints/psyarxiv/5b26t) show that LLMs best reflect WEIRD (Western Educated Industrialised Rich Democratic) societies.
 * [Pellert et al.](https://journals.sagepub.com/doi/epub/10.1177/17456916231214460) consider the psychometric profile of LLMs, concluding that LLMs portray traits of extraversion and agreeableness, and don’t show neuroticism.  
 * [Chen et al.](https://www.pnas.org/doi/epub/10.1073/pnas.2316205120) show that GPT produces results that are more rational, and homogenous than humans. 
-* [Nelimarkka](https://osf.io/preprints/socarxiv/fkj63) fine-tuned an LLM to have a marxist viewpoint. In doing so, he demonstrated that the base model itself is not neutral and has a ‘viewpoint’.
- * [Addulhai et al.](https://arxiv.org/pdf/2310.15337) use a psychological assessment tool (Moral foundations theory) to assess typical responses by LLMs and find that LLMs have a bias towards reflecting politically conservative people. In their paper they also highlight a number of risks coming from their use. 
+* [Nelimarkka](https://osf.io/preprints/socarxiv/fkj63) fine-tuned an LLM to have a marxist viewpoint
+*  In doing so, he demonstrated that the base model itself is not neutral and has a ‘viewpoint’.
+* [Addulhai et al.](https://arxiv.org/pdf/2310.15337) use a psychological assessment tool (Moral foundations theory) to assess typical responses by LLMs and find that LLMs have a bias towards reflecting politically conservative people.
+* In their paper they also highlight a number of risks coming from their use. 
 
 ### Ethics
 
@@ -51,7 +61,12 @@ The ethical concerns with the use of generative AI in research include: whether 
 
 ### Hallucination/ Junk Science
 
-Generative AI can often create inaccurate information with high confidence. This is partly due to the models being trained on datasets which can contain misinformation or flawed content. 
+Generative AI can often create inaccurate information with high confidence.
+This is partly due to the models being trained on datasets which can contain misinformation or flawed content.
+In some cases, hallucinations have also become defamatory: In 2025, a Norwegian man [filed a complaint](https://techcrunch.com/2025/03/19/chatgpt-hit-with-privacy-complaint-over-defamatory-hallucinations/) after ChatGPT falsely claimed he had been convicted of murdering two of his children.
+As such incorrect personal data points are difficult or impossible to correct by such services, they are, in effect, breaching the GDPR.
+
+[Mervaala and Kousa](https://jdmdh.episciences.org/15304) have addressed such issues regarding the limitations of ChatGPT’s context window: for example, when the amount of text an LLM can analyse is exceeded, the model may concoct the rest of the analysis based on the beginning of the document.
 
 ### Environmental Impact
 
