@@ -565,22 +565,32 @@
 <li>Contact us via email: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#116;&#116;&#105;&#46;&#110;&#101;&#108;&#105;&#109;&#97;&#114;&#107;&#107;&#97;&#64;&#104;&#101;&#108;&#115;&#105;&#110;&#107;&#105;&#46;&#102;&#105;">&#109;&#97;&#116;&#116;&#105;&#46;&#110;&#101;&#108;&#105;&#109;&#97;&#114;&#107;&#107;&#97;&#64;&#104;&#101;&#108;&#115;&#105;&#110;&#107;&#105;&#46;&#102;&#105;</a> and <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#101;&#108;&#105;&#110;&#101;&#46;&#99;&#108;&#97;&#114;&#107;&#101;&#64;&#104;&#101;&#108;&#115;&#105;&#110;&#107;&#105;&#46;&#102;&#105;">&#97;&#100;&#101;&#108;&#105;&#110;&#101;&#46;&#99;&#108;&#97;&#114;&#107;&#101;&#64;&#104;&#101;&#108;&#115;&#105;&#110;&#107;&#105;&#46;&#102;&#105;</a> </li>
 </ol>
 <h2 id="general-limitations">General limitations</h2>
-<p>Overall, there are general concerns related to the application of large language models across all application areas. These are highlighted e.g. in Bail’s article as concerns, but even while these are acknowledged as issues, there is much less know-how on how to correctly address these issues.</p>
+<p>Overall, there are general concerns related to the application of large language models across all application areas.
+These are highlighted e.g. in Bail’s article as concerns, but even while these are acknowledged as issues, there is much less know-how on how to correctly address these issues.</p>
 <h3 id="reproducibility">Reproducibility</h3>
-<p>Replicability of research using generative AI is of concern due to the probabilistic nature of the models. ‘Temperature’ parameters can be used to combat this but there isn’t consensus on what these should be set to and they come with drawbacks of repetition that may be problematic in some research settings. Another issue is that as the models change and develop, their outputs will as well, making it difficult to reproduce results at a later date. Finally, results may be dependent on which generative AI was used within the research. </p>
+<p>Replicability of research using generative AI is of concern due to the probabilistic nature of the models.
+‘Temperature’ parameters can be used to combat this but there isn’t consensus on what these should be set to and they come with drawbacks of repetition that may be problematic in some research settings.
+Another issue is that as the models change and develop, their outputs will as well, making it difficult to reproduce results at a later date.
+Finally, results may be dependent on which generative AI was used within the research. </p>
 <ul>
 <li><a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B92267DC26195C7F36E63EA04A47D2FE/S1047198724000056a.pdf/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models.pdf">Bisbee et al.</a> found that between April and July 2023, changes in the algorithm in ChatGPT 3.5 Turbo would have significantly changed their results. </li>
 </ul>
 <h3 id="bias">Bias</h3>
-<p>Generative AI tools exhibit the human biases found in their training materials. Bail argues prompt engineering shows some promise in addressing this and these biases may be easier to remove from generative AI than human populations, but this requires researchers being able to identify the bias and is hindered by researchers having little access to material used to train the model. This bias can be seen as a ‘bug’ or a ‘feature’ and may be useful in some research applications. We also don’t know what the developers have done to limit or prevent certain biases (such as racism) through fine-tuning to safeguard against their generative AI producing unappealing or toxic content. </p>
+<p>Generative AI tools exhibit the human biases found in their training materials.
+Bail argues prompt engineering shows some promise in addressing this and these biases may be easier to remove from generative AI than human populations, but this requires researchers being able to identify the bias and is hindered by researchers having little access to material used to train the model.
+This bias can be seen as a ‘bug’ or a ‘feature’ and may be useful in some research applications.
+We also don’t know what the developers have done to limit or prevent certain biases (such as racism) through fine-tuning to safeguard against their generative AI producing unappealing or toxic content. </p>
 <ul>
 <li>See Boelaert et al. “Machine Bias”, discussed <a href="https://osf.io/preprints/socarxiv/r2pnb">below</a>.</li>
-<li>Santurkar et al. ask <a href="https://arxiv.org/abs/2303.17548">‘Whose Opinions Do Language Models Reflect?’</a>, quantifying results gained from using LLMs in comparison to opinion polls. Even when prompted to represent a certain US demographic group, the overall results tend to reflect more liberal, younger and educated respondents rather than the general population.</li>
+<li>Santurkar et al. ask <a href="https://arxiv.org/abs/2303.17548">‘Whose Opinions Do Language Models Reflect?’</a>, quantifying results gained from using LLMs in comparison to opinion polls.</li>
+<li>Even when prompted to represent a certain US demographic group, the overall results tend to reflect more liberal, younger and educated respondents rather than the general population.</li>
 <li>Similarly, <a href="https://osf.io/preprints/psyarxiv/5b26t">Atari et al.</a> show that LLMs best reflect WEIRD (Western Educated Industrialised Rich Democratic) societies.</li>
 <li><a href="https://journals.sagepub.com/doi/epub/10.1177/17456916231214460">Pellert et al.</a> consider the psychometric profile of LLMs, concluding that LLMs portray traits of extraversion and agreeableness, and don’t show neuroticism.  </li>
 <li><a href="https://www.pnas.org/doi/epub/10.1073/pnas.2316205120">Chen et al.</a> show that GPT produces results that are more rational, and homogenous than humans. </li>
-<li><a href="https://osf.io/preprints/socarxiv/fkj63">Nelimarkka</a> fine-tuned an LLM to have a marxist viewpoint. In doing so, he demonstrated that the base model itself is not neutral and has a ‘viewpoint’.</li>
-<li><a href="https://arxiv.org/pdf/2310.15337">Addulhai et al.</a> use a psychological assessment tool (Moral foundations theory) to assess typical responses by LLMs and find that LLMs have a bias towards reflecting politically conservative people. In their paper they also highlight a number of risks coming from their use. </li>
+<li><a href="https://osf.io/preprints/socarxiv/fkj63">Nelimarkka</a> fine-tuned an LLM to have a marxist viewpoint</li>
+<li>In doing so, he demonstrated that the base model itself is not neutral and has a ‘viewpoint’.</li>
+<li><a href="https://arxiv.org/pdf/2310.15337">Addulhai et al.</a> use a psychological assessment tool (Moral foundations theory) to assess typical responses by LLMs and find that LLMs have a bias towards reflecting politically conservative people.</li>
+<li>In their paper they also highlight a number of risks coming from their use. </li>
 </ul>
 <h3 id="ethics">Ethics</h3>
 <p>The ethical concerns with the use of generative AI in research include: whether consent should be sought before including generative AI in experiments involving human subjects, generative AI producing harmful content or misinformation when interacting with human subjects (especially if interactions are not closely ‘supervised’, although arguably generative AI could allow researchers more control over content than having two humans interacting), concerns with storage of identifiable, private or confidential data if private corporations control generative AI tools used in research, and environmental impact (see below). The ethical advantages include: generative AI being used to simulate dangerous scenarios and using generative AI to diagnose ethical issues.</p>
@@ -592,7 +602,11 @@
 <li>Another real-world <a href="https://www.boston.com/news/the-boston-globe/2023/07/21/mit-student-ai-racial-blind-spots/">example</a> of the ethics of these tools comes from the racial changes suggested to a computer scientist’s profile image when she asked for a photo to be adapted to look ‘more professional’ for use of LinkedIn and her Asian features were replaced with lighter skin and blue eyes. </li>
 </ul>
 <h3 id="hallucination-junk-science">Hallucination/ Junk Science</h3>
-<p>Generative AI can often create inaccurate information with high confidence. This is partly due to the models being trained on datasets which can contain misinformation or flawed content. </p>
+<p>Generative AI can often create inaccurate information with high confidence.
+This is partly due to the models being trained on datasets which can contain misinformation or flawed content.
+In some cases, hallucinations have also become defamatory: In 2025, a Norwegian man <a href="https://techcrunch.com/2025/03/19/chatgpt-hit-with-privacy-complaint-over-defamatory-hallucinations/">filed a complaint</a> after ChatGPT falsely claimed he had been convicted of murdering two of his children.
+As such incorrect personal data points are difficult or impossible to correct by such services, they are, in effect, breaching the GDPR.</p>
+<p><a href="https://jdmdh.episciences.org/15304">Mervaala and Kousa</a> have addressed such issues regarding the limitations of ChatGPT’s context window: for example, when the amount of text an LLM can analyse is exceeded, the model may concoct the rest of the analysis based on the beginning of the document.</p>
 <h3 id="environmental-impact">Environmental Impact</h3>
 <p>The environmental cost of training and using generative AI tools are significant and as these tools become bigger (and better) so will their footprint! </p>
 <h2 id="application-areas">Application areas</h2>
