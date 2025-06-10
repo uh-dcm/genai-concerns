@@ -39,15 +39,14 @@ This bias can be seen as a ‘bug’ or a ‘feature’ and may be useful in som
 We also don’t know what the developers have done to limit or prevent certain biases (such as racism) through fine-tuning to safeguard against their generative AI producing unappealing or toxic content. 
 
 * See Boelaert et al. “Machine Bias”, discussed [below](https://osf.io/preprints/socarxiv/r2pnb).
-* Santurkar et al. ask [‘Whose Opinions Do Language Models Reflect?’](https://arxiv.org/abs/2303.17548), quantifying results gained from using LLMs in comparison to opinion polls.
-* Even when prompted to represent a certain US demographic group, the overall results tend to reflect more liberal, younger and educated respondents rather than the general population.
+* Santurkar et al. ask [‘Whose Opinions Do Language Models Reflect?’](https://arxiv.org/abs/2303.17548), quantifying results gained from using LLMs in comparison to opinion polls. Even when prompted to represent a certain US demographic group, the overall results tend to reflect more liberal, younger and educated respondents rather than the general population.
 * Similarly, [Atari et al.](https://osf.io/preprints/psyarxiv/5b26t) show that LLMs best reflect WEIRD (Western Educated Industrialised Rich Democratic) societies.
 * [Pellert et al.](https://journals.sagepub.com/doi/epub/10.1177/17456916231214460) consider the psychometric profile of LLMs, concluding that LLMs portray traits of extraversion and agreeableness, and don’t show neuroticism.  
 * [Chen et al.](https://www.pnas.org/doi/epub/10.1073/pnas.2316205120) show that GPT produces results that are more rational, and homogenous than humans. 
-* [Nelimarkka](https://osf.io/preprints/socarxiv/fkj63) fine-tuned an LLM to have a marxist viewpoint
-*  In doing so, he demonstrated that the base model itself is not neutral and has a ‘viewpoint’.
-* [Addulhai et al.](https://arxiv.org/pdf/2310.15337) use a psychological assessment tool (Moral foundations theory) to assess typical responses by LLMs and find that LLMs have a bias towards reflecting politically conservative people.
-* In their paper they also highlight a number of risks coming from their use. 
+* [Nelimarkka](https://osf.io/preprints/socarxiv/fkj63) fine-tuned an LLM to have a marxist viewpoint. In doing so, he demonstrated that the base model itself is not neutral and has a ‘viewpoint’.
+* [Addulhai et al.](https://arxiv.org/pdf/2310.15337) use a psychological assessment tool (Moral foundations theory) to assess typical responses by LLMs and find that LLMs have a bias towards reflecting politically conservative people. In their paper they also highlight a number of risks coming from their use.
+* [Ashwin et al.](https://journals.sagepub.com/doi/full/10.1177/00491241251338246) compare using LLMs with expert coding for analysis of open-ended interviews with a large number of participants (in their case, interviews with Rohinga refugees and their hosts in Bangladesh) and find that LLMs have are biased and that the resultant prediction errors are not random. They suggest it is 'preferable to train a bespoke model on a subset of transcripts coded by trained sociologists rather than use an LLM'.
+* [Qu and Wang](https://www.nature.com/articles/s41599-024-03609-x) also find that ChatGPT has better performance for WEIRD countries (and best performance for the USA) and demonstrate other biases around gender, ethnicity, age, education, social class. They use data World Values Survey to evaluate the LLM's performance at producing silicon samples and highlight 3 challenges to address before LLMs can be used in the social sciences: 'global applicability and reliability', 'demographic biases', and 'complexity and choice variability in LLM simulations'.
 
 ### Ethics
 
@@ -108,7 +107,7 @@ The environmental cost of training and using generative AI tools are significant
 ### Blending Simulation and Human Experiment
 
 - **Claim:** There are a number of articles which demonstrate that LLMs are capable of convincingly impersonating humans. Bail highlights this as an opportunity for content creation (eg. production of text designed to elicit a specific response in human subjects or creation of two similar images depicting different races). Bail also believes generative AI provides an opportunity to create chatbots that are convincingly human, to include AI participants with particular traits within research on groups and influence.
-- Currently no counter claims!
+- [Cheng et al.](https://arxiv.org/abs/2305.18189) look at stereotypes that are found in LLM output and present a method called 'Marked Personas' which measures these. This method first prompts the LLMs to generate personas, and then identified words which distinguish groups. THey find higher rates of racial stereotypes in LLM output (compared with human-written personas from the same prompts) and evidence of 'othering and exoticising' non-white, non-male groups. 
 
 
 
