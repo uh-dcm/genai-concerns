@@ -98,7 +98,10 @@ The environmental cost of training and using generative AI tools are significant
 
 ### Synthetic Experiments
 - **Claim:** Generative AI has successfully reproduced some experiments (such as the Milgram experiment) and reflect known phenomena (such as the Prisoner’s Dilemma), there is an opportunity for generative AI to reproduce experiments. He also highlights a study which found a correlation of 0.86 between the results of 482 studies and synthetic experiments using GPT-4 indicating this opportunity could be widespread. 
-- **Counterclaim:** The positive findings about the replication of the Milgram Experiment listed above comes from [Aher et al.](https://arxiv.org/pdf/2208.10264) who also were able to replicate the results of the Ultimatum Game and Garden Path Sentences. However, genAI could not replicate the ‘Wisdom of Crowds’ which shows that not all known human behaviour phenomena will be reflected in genAI output, and is a cautionary case against using genAI for their discovery. 
+- **Counterclaim:** The positive findings about the replication of the Milgram Experiment listed above comes from [Aher et al.](https://arxiv.org/pdf/2208.10264) who also were able to replicate the results of the Ultimatum Game and Garden Path Sentences. However, genAI could not replicate the ‘Wisdom of Crowds’ which shows that not all known human behaviour phenomena will be reflected in genAI output, and is a cautionary case against using genAI for their discovery.
+
+- **Claim:** [Dillion et al.](https://www.sciencedirect.com/science/article/pii/S1364661323000980) suggest that LLMs could replace human participants in psychological studies, by demonstrating that, when asked to make moral judgements', GPT3.5 reponded very similarly to humans. 
+- **Counterclaim:** [Schröder et al.](https://arxiv.org/pdf/2508.06950) demonstrate that by making minor changes to the texts, which change the semantic meaning of the texts, will significantly change the human responses, but not those from the LLMs. This demonstrates that LLMs cannot be relied upon to simulate human psychology. 
 
 ### Generative Agent-Based Models
 - **Claim:** generative AI can be used to simulate populations which could lead to better, richer, ABMs thus enabling deeper research.  
